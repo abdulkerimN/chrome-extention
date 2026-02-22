@@ -1,4 +1,4 @@
-let myLeads = [1, 2, 3]
+let myLeads = []
 const inputEl = document.getElementById("input-el")
 const savBtn = document.getElementById("input-btn");
 const ulEl = document.getElementById("ul-el")
@@ -12,9 +12,10 @@ savBtn.addEventListener("click", function() {
     inputItem = inputEl.value
     myLeads.push(inputItem);
     // console.log(myLeads);
+    renderLeads();
 });
 
-renderLeads()
+
 
 // 1. Create a variable, listItems, to hold all the HTML for the list items
 // Assign it to an empty string to begin with
