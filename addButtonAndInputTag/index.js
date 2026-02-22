@@ -8,5 +8,6 @@ const savBtn = document.getElementById("input-btn");
 // so we dont need to add onclick attribute in html
 // the below is professional way
 savBtn.addEventListener("click", function() {
-    console.log("Button Clicked from addEventListener");
+    myLeads.push("www.awesomelead.com");
+    console.log(myLeads);
 });
