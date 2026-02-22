@@ -30,7 +30,7 @@ function renderLeads() {
         // listItems += "<li><a href='#'>" + myLeads[i] + "</a></li>";
         // using template string
         listItems += `
-<li><a href='${myLeads[i]}'>${myLeads[i]}</a></li>
+        <li><a href='${myLeads[i]}'>${myLeads[i]}</a></li>
  `;
     }
 
