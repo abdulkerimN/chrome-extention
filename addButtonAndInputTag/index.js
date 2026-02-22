@@ -1,3 +1,5 @@
+let myLeads = []
+inputEl = document.getElementById("input-el")
 let savBtn = document.getElementById("input-btn");
 
 // function saveInput() {
