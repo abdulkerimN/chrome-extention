@@ -14,15 +14,18 @@ savBtn.addEventListener("click", function() {
     // console.log(myLeads);
 });
 
+renderLeads()
 
 // 1. Create a variable, listItems, to hold all the HTML for the list items
 // Assign it to an empty string to begin with
-let listItems = ""
-for (let i = 0; i < myLeads.length; i++) {
-    // 2. Add the item to the listItems variable instead of the ulEl.innerHTML
-    // ulEl.innerHTML += "<li>" + myLeads[i] + "</li>";
-    // but the below ia more good
-    listItems += "<li>" + myLeads[i] + "</li>";
-}
+function renderLeads() {
+    let listItems = ""
+    for (let i = 0; i < myLeads.length; i++) {
+        // 2. Add the item to the listItems variable instead of the ulEl.innerHTML
+        // ulEl.innerHTML += "<li>" + myLeads[i] + "</li>";
+        // but the below ia more good
+        listItems += "<li>" + myLeads[i] + "</li>";
+    }
 
-ulEl.innerHTML = listItems
+    ulEl.innerHTML = listItems
+}
