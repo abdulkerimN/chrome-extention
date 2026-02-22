@@ -27,7 +27,7 @@ function renderLeads() {
         // 2. Add the item to the listItems variable instead of the ulEl.innerHTML
         // ulEl.innerHTML += "<li>" + myLeads[i] + "</li>";
         // but the below ia more good
-        listItems += "<li>" + myLeads[i] + "</li>";
+        listItems += "<li><a href='#'>" + myLeads[i] + "</a></li>";
     }
 
     ulEl.innerHTML = listItems
