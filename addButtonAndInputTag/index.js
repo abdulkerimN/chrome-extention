@@ -1,6 +1,6 @@
 let myLeads = []
-inputEl = document.getElementById("input-el")
-let savBtn = document.getElementById("input-btn");
+const inputEl = document.getElementById("input-el")
+const savBtn = document.getElementById("input-btn");
 
 // function saveInput() {
 //     console.log("Button Clicked from onclick attribute")
