@@ -11,9 +11,11 @@ console.log(ulEl)
 savBtn.addEventListener("click", function() {
     inputItem = inputEl.value
     myLeads.push(inputItem);
-    // console.log(myLeads);
+    inputEl.value = ""
+        // console.log(myLeads);
     renderLeads();
 });
+
 
 
 
